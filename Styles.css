@@ -1,0 +1,114 @@
+body {
+  font-family: Inter, Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.header {
+  background: #0a1f33;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.header nav a {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f5f5f5;
+}
+
+.hero h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero-buttons button {
+  padding: 12px 20px;
+  margin: 8px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-cotizar { background: #0a1f33; color: white; }
+.btn-whatsapp { background: #25d366; color: white; }
+
+.beneficios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 40px 20px;
+}
+
+.card {
+  width: 280px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background: white;
+}
+
+.contacto {
+  text-align: center;
+  padding: 40px 20px;
+  background: #0d263f;
+  color: white;
+}
+
+textarea, input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.btn-enviar {
+  padding: 12px 22px;
+  border-radius: 6px;
+  border: none;
+  background: #25d366;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #0a1f33;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  padding: 14px;
+  border-radius: 50%;
+  font-size: 22px;
+  text-decoration: none;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+.logo{
+  text-align: left;
+}
+nav›a{
+  border: 1px solid #000;
+}
